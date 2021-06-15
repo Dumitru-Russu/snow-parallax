@@ -1,0 +1,1242 @@
+body {
+  background-color: #234;
+}
+
+.flake-layer {
+  position: absolute;
+  width: 100%;
+  height: 300vh;
+}
+
+.flake {
+  top: -7.5px;
+  border-radius: 5px;
+  position: fixed;
+  -webkit-animation: fall 20s linear infinite;
+          animation: fall 20s linear infinite;
+}
+
+@-webkit-keyframes fall {
+  from {
+    top: -7.5px;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+@keyframes fall {
+  from {
+    top: -7.5px;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+@media (min-width: 1001px) {
+  .flake:nth-child(1) {
+    left: 91%;
+    -webkit-animation-delay: 16.86242s;
+            animation-delay: 16.86242s;
+    -webkit-animation-duration: 37.4566s;
+            animation-duration: 37.4566s;
+    width: 2.66976px;
+    height: 2.66976px;
+    background-color: #7f92b6;
+  }
+  .flake:nth-child(2) {
+    left: 30%;
+    -webkit-animation-delay: 11.88625s;
+            animation-delay: 11.88625s;
+    -webkit-animation-duration: 38.26414s;
+            animation-duration: 38.26414s;
+    width: 2.61341px;
+    height: 2.61341px;
+    background-color: #7e90b5;
+  }
+  .flake:nth-child(3) {
+    left: 26%;
+    -webkit-animation-delay: 10.59288s;
+            animation-delay: 10.59288s;
+    -webkit-animation-duration: 13.44642s;
+            animation-duration: 13.44642s;
+    width: 7.43692px;
+    height: 7.43692px;
+    background-color: white;
+  }
+  .flake:nth-child(4) {
+    left: 70%;
+    -webkit-animation-delay: 19.12785s;
+            animation-delay: 19.12785s;
+    -webkit-animation-duration: 15.94142s;
+            animation-duration: 15.94142s;
+    width: 6.27297px;
+    height: 6.27297px;
+    background-color: #e9ecf2;
+  }
+  .flake:nth-child(5) {
+    left: 7%;
+    -webkit-animation-delay: 16.85725s;
+            animation-delay: 16.85725s;
+    -webkit-animation-duration: 15.03808s;
+            animation-duration: 15.03808s;
+    width: 6.64978px;
+    height: 6.64978px;
+    background-color: #f4f5f9;
+  }
+  .flake:nth-child(6) {
+    left: 86%;
+    -webkit-animation-delay: 4.2959s;
+            animation-delay: 4.2959s;
+    -webkit-animation-duration: 29.97657s;
+            animation-duration: 29.97657s;
+    width: 3.33594px;
+    height: 3.33594px;
+    background-color: #93a2c1;
+  }
+  .flake:nth-child(7) {
+    left: 58%;
+    -webkit-animation-delay: 3.08897s;
+            animation-delay: 3.08897s;
+    -webkit-animation-duration: 14.38366s;
+            animation-duration: 14.38366s;
+    width: 6.95233px;
+    height: 6.95233px;
+    background-color: #fdfdfe;
+  }
+  .flake:nth-child(8) {
+    left: 86%;
+    -webkit-animation-delay: 11.28118s;
+            animation-delay: 11.28118s;
+    -webkit-animation-duration: 25.88968s;
+            animation-duration: 25.88968s;
+    width: 3.86254px;
+    height: 3.86254px;
+    background-color: #a2b0ca;
+  }
+  .flake:nth-child(9) {
+    left: 95%;
+    -webkit-animation-delay: 13.5684s;
+            animation-delay: 13.5684s;
+    -webkit-animation-duration: 27.80017s;
+            animation-duration: 27.80017s;
+    width: 3.5971px;
+    height: 3.5971px;
+    background-color: #9ba9c6;
+  }
+  .flake:nth-child(10) {
+    left: 51%;
+    -webkit-animation-delay: 0.59603s;
+            animation-delay: 0.59603s;
+    -webkit-animation-duration: 14.17854s;
+            animation-duration: 14.17854s;
+    width: 7.05291px;
+    height: 7.05291px;
+    background-color: white;
+  }
+  .flake:nth-child(11) {
+    left: 1%;
+    -webkit-animation-delay: 19.99344s;
+            animation-delay: 19.99344s;
+    -webkit-animation-duration: 20.37986s;
+            animation-duration: 20.37986s;
+    width: 4.90681px;
+    height: 4.90681px;
+    background-color: #c1cadb;
+  }
+  .flake:nth-child(12) {
+    left: 21%;
+    -webkit-animation-delay: 13.10922s;
+            animation-delay: 13.10922s;
+    -webkit-animation-duration: 21.67663s;
+            animation-duration: 21.67663s;
+    width: 4.61326px;
+    height: 4.61326px;
+    background-color: #b8c2d7;
+  }
+  .flake:nth-child(13) {
+    left: 61%;
+    -webkit-animation-delay: 10.61527s;
+            animation-delay: 10.61527s;
+    -webkit-animation-duration: 14.8409s;
+            animation-duration: 14.8409s;
+    width: 6.73813px;
+    height: 6.73813px;
+    background-color: #f6f8fa;
+  }
+  .flake:nth-child(14) {
+    left: 13%;
+    -webkit-animation-delay: 15.60365s;
+            animation-delay: 15.60365s;
+    -webkit-animation-duration: 35.90687s;
+            animation-duration: 35.90687s;
+    width: 2.78498px;
+    height: 2.78498px;
+    background-color: #8395b8;
+  }
+  .flake:nth-child(15) {
+    left: 13%;
+    -webkit-animation-delay: 3.70288s;
+            animation-delay: 3.70288s;
+    -webkit-animation-duration: 24.34969s;
+            animation-duration: 24.34969s;
+    width: 4.10683px;
+    height: 4.10683px;
+    background-color: #a9b6ce;
+  }
+  .flake:nth-child(16) {
+    left: 58%;
+    -webkit-animation-delay: 18.53276s;
+            animation-delay: 18.53276s;
+    -webkit-animation-duration: 27.38552s;
+            animation-duration: 27.38552s;
+    width: 3.65156px;
+    height: 3.65156px;
+    background-color: #9caac6;
+  }
+  .flake:nth-child(17) {
+    left: 89%;
+    -webkit-animation-delay: 1.15579s;
+            animation-delay: 1.15579s;
+    -webkit-animation-duration: 23.28397s;
+            animation-duration: 23.28397s;
+    width: 4.2948px;
+    height: 4.2948px;
+    background-color: #afbad1;
+  }
+  .flake:nth-child(18) {
+    left: 100%;
+    -webkit-animation-delay: 9.57884s;
+            animation-delay: 9.57884s;
+    -webkit-animation-duration: 34.56649s;
+            animation-duration: 34.56649s;
+    width: 2.89298px;
+    height: 2.89298px;
+    background-color: #8697ba;
+  }
+  .flake:nth-child(19) {
+    left: 72%;
+    -webkit-animation-delay: 6.91654s;
+            animation-delay: 6.91654s;
+    -webkit-animation-duration: 38.13687s;
+            animation-duration: 38.13687s;
+    width: 2.62213px;
+    height: 2.62213px;
+    background-color: #7e90b5;
+  }
+  .flake:nth-child(20) {
+    left: 22%;
+    -webkit-animation-delay: 4.7431s;
+            animation-delay: 4.7431s;
+    -webkit-animation-duration: 17.45934s;
+            animation-duration: 17.45934s;
+    width: 5.72759px;
+    height: 5.72759px;
+    background-color: #d9dee9;
+  }
+  .flake:nth-child(21) {
+    left: 63%;
+    -webkit-animation-delay: 14.41697s;
+            animation-delay: 14.41697s;
+    -webkit-animation-duration: 27.63895s;
+            animation-duration: 27.63895s;
+    width: 3.61808px;
+    height: 3.61808px;
+    background-color: #9ba9c6;
+  }
+  .flake:nth-child(22) {
+    left: 6%;
+    -webkit-animation-delay: 4.09723s;
+            animation-delay: 4.09723s;
+    -webkit-animation-duration: 31.77887s;
+            animation-duration: 31.77887s;
+    width: 3.14674px;
+    height: 3.14674px;
+    background-color: #8d9ebe;
+  }
+  .flake:nth-child(23) {
+    left: 70%;
+    -webkit-animation-delay: 14.62689s;
+            animation-delay: 14.62689s;
+    -webkit-animation-duration: 14.45846s;
+            animation-duration: 14.45846s;
+    width: 6.91637px;
+    height: 6.91637px;
+    background-color: #fbfcfd;
+  }
+  .flake:nth-child(24) {
+    left: 13%;
+    -webkit-animation-delay: 19.63306s;
+            animation-delay: 19.63306s;
+    -webkit-animation-duration: 39.51028s;
+            animation-duration: 39.51028s;
+    width: 2.53099px;
+    height: 2.53099px;
+    background-color: #7b8eb4;
+  }
+  .flake:nth-child(25) {
+    left: 72%;
+    -webkit-animation-delay: 6.33407s;
+            animation-delay: 6.33407s;
+    -webkit-animation-duration: 26.8969s;
+            animation-duration: 26.8969s;
+    width: 3.7179px;
+    height: 3.7179px;
+    background-color: #9eacc8;
+  }
+  .flake:nth-child(26) {
+    left: 19%;
+    -webkit-animation-delay: 19.73787s;
+            animation-delay: 19.73787s;
+    -webkit-animation-duration: 38.52877s;
+            animation-duration: 38.52877s;
+    width: 2.59546px;
+    height: 2.59546px;
+    background-color: #7d90b5;
+  }
+  .flake:nth-child(27) {
+    left: 27%;
+    -webkit-animation-delay: 5.97285s;
+            animation-delay: 5.97285s;
+    -webkit-animation-duration: 27.92238s;
+            animation-duration: 27.92238s;
+    width: 3.58136px;
+    height: 3.58136px;
+    background-color: #9aa8c5;
+  }
+  .flake:nth-child(28) {
+    left: 3%;
+    -webkit-animation-delay: 14.90702s;
+            animation-delay: 14.90702s;
+    -webkit-animation-duration: 16.71135s;
+            animation-duration: 16.71135s;
+    width: 5.98396px;
+    height: 5.98396px;
+    background-color: #e0e5ed;
+  }
+  .flake:nth-child(29) {
+    left: 96%;
+    -webkit-animation-delay: 12.25308s;
+            animation-delay: 12.25308s;
+    -webkit-animation-duration: 14.84572s;
+            animation-duration: 14.84572s;
+    width: 6.73595px;
+    height: 6.73595px;
+    background-color: #f6f7fa;
+  }
+  .flake:nth-child(30) {
+    left: 30%;
+    -webkit-animation-delay: 13.3813s;
+            animation-delay: 13.3813s;
+    -webkit-animation-duration: 36.33087s;
+            animation-duration: 36.33087s;
+    width: 2.75248px;
+    height: 2.75248px;
+    background-color: #8294b7;
+  }
+  .flake:nth-child(31) {
+    left: 36%;
+    -webkit-animation-delay: 0.99266s;
+            animation-delay: 0.99266s;
+    -webkit-animation-duration: 32.78921s;
+            animation-duration: 32.78921s;
+    width: 3.04978px;
+    height: 3.04978px;
+    background-color: #8b9bbc;
+  }
+  .flake:nth-child(32) {
+    left: 8%;
+    -webkit-animation-delay: 2.74735s;
+            animation-delay: 2.74735s;
+    -webkit-animation-duration: 16.72418s;
+            animation-duration: 16.72418s;
+    width: 5.97937px;
+    height: 5.97937px;
+    background-color: #e0e5ed;
+  }
+  .flake:nth-child(33) {
+    left: 81%;
+    -webkit-animation-delay: 16.23775s;
+            animation-delay: 16.23775s;
+    -webkit-animation-duration: 14.66398s;
+            animation-duration: 14.66398s;
+    width: 6.81943px;
+    height: 6.81943px;
+    background-color: #f9fafb;
+  }
+  .flake:nth-child(34) {
+    left: 53%;
+    -webkit-animation-delay: 15.58623s;
+            animation-delay: 15.58623s;
+    -webkit-animation-duration: 29.43953s;
+            animation-duration: 29.43953s;
+    width: 3.39679px;
+    height: 3.39679px;
+    background-color: #95a4c2;
+  }
+  .flake:nth-child(35) {
+    left: 30%;
+    -webkit-animation-delay: 11.87538s;
+            animation-delay: 11.87538s;
+    -webkit-animation-duration: 16.00143s;
+            animation-duration: 16.00143s;
+    width: 6.24944px;
+    height: 6.24944px;
+    background-color: #e8ebf2;
+  }
+  .flake:nth-child(36) {
+    left: 1%;
+    -webkit-animation-delay: 4.46489s;
+            animation-delay: 4.46489s;
+    -webkit-animation-duration: 14.85372s;
+            animation-duration: 14.85372s;
+    width: 6.73232px;
+    height: 6.73232px;
+    background-color: #f6f7fa;
+  }
+  .flake:nth-child(37) {
+    left: 2%;
+    -webkit-animation-delay: 1.79048s;
+            animation-delay: 1.79048s;
+    -webkit-animation-duration: 16.27621s;
+            animation-duration: 16.27621s;
+    width: 6.14394px;
+    height: 6.14394px;
+    background-color: #e5e9f0;
+  }
+  .flake:nth-child(38) {
+    left: 20%;
+    -webkit-animation-delay: 8.86454s;
+            animation-delay: 8.86454s;
+    -webkit-animation-duration: 14.52974s;
+            animation-duration: 14.52974s;
+    width: 6.88244px;
+    height: 6.88244px;
+    background-color: #fafbfc;
+  }
+  .flake:nth-child(39) {
+    left: 83%;
+    -webkit-animation-delay: 8.36056s;
+            animation-delay: 8.36056s;
+    -webkit-animation-duration: 26.71025s;
+            animation-duration: 26.71025s;
+    width: 3.74388px;
+    height: 3.74388px;
+    background-color: #9fadc8;
+  }
+  .flake:nth-child(40) {
+    left: 50%;
+    -webkit-animation-delay: 18.47972s;
+            animation-delay: 18.47972s;
+    -webkit-animation-duration: 27.58039s;
+            animation-duration: 27.58039s;
+    width: 3.62576px;
+    height: 3.62576px;
+    background-color: #9baac6;
+  }
+  .flake:nth-child(41) {
+    left: 73%;
+    -webkit-animation-delay: 11.86878s;
+            animation-delay: 11.86878s;
+    -webkit-animation-duration: 33.26959s;
+            animation-duration: 33.26959s;
+    width: 3.00575px;
+    height: 3.00575px;
+    background-color: #899abc;
+  }
+  .flake:nth-child(42) {
+    left: 39%;
+    -webkit-animation-delay: 15.8827s;
+            animation-delay: 15.8827s;
+    -webkit-animation-duration: 13.57255s;
+            animation-duration: 13.57255s;
+    width: 7.36781px;
+    height: 7.36781px;
+    background-color: white;
+  }
+  .flake:nth-child(43) {
+    left: 8%;
+    -webkit-animation-delay: 12.26694s;
+            animation-delay: 12.26694s;
+    -webkit-animation-duration: 26.7433s;
+            animation-duration: 26.7433s;
+    width: 3.73925px;
+    height: 3.73925px;
+    background-color: #9facc8;
+  }
+  .flake:nth-child(44) {
+    left: 90%;
+    -webkit-animation-delay: 0.3493s;
+            animation-delay: 0.3493s;
+    -webkit-animation-duration: 17.64107s;
+            animation-duration: 17.64107s;
+    width: 5.66859px;
+    height: 5.66859px;
+    background-color: #d7dde8;
+  }
+  .flake:nth-child(45) {
+    left: 16%;
+    -webkit-animation-delay: 10.12697s;
+            animation-delay: 10.12697s;
+    -webkit-animation-duration: 19.27314s;
+            animation-duration: 19.27314s;
+    width: 5.18857px;
+    height: 5.18857px;
+    background-color: #c9d1e0;
+  }
+  .flake:nth-child(46) {
+    left: 57%;
+    -webkit-animation-delay: 1.31944s;
+            animation-delay: 1.31944s;
+    -webkit-animation-duration: 18.19258s;
+            animation-duration: 18.19258s;
+    width: 5.49675px;
+    height: 5.49675px;
+    background-color: #d2d8e5;
+  }
+  .flake:nth-child(47) {
+    left: 56%;
+    -webkit-animation-delay: 16.64283s;
+            animation-delay: 16.64283s;
+    -webkit-animation-duration: 28.07991s;
+            animation-duration: 28.07991s;
+    width: 3.56127px;
+    height: 3.56127px;
+    background-color: #99a8c5;
+  }
+  .flake:nth-child(48) {
+    left: 36%;
+    -webkit-animation-delay: 17.67986s;
+            animation-delay: 17.67986s;
+    -webkit-animation-duration: 39.36805s;
+            animation-duration: 39.36805s;
+    width: 2.54013px;
+    height: 2.54013px;
+    background-color: #7c8eb4;
+  }
+  .flake:nth-child(49) {
+    left: 47%;
+    -webkit-animation-delay: 11.96483s;
+            animation-delay: 11.96483s;
+    -webkit-animation-duration: 39.62283s;
+            animation-duration: 39.62283s;
+    width: 2.5238px;
+    height: 2.5238px;
+    background-color: #7b8eb4;
+  }
+  .flake:nth-child(50) {
+    left: 67%;
+    -webkit-animation-delay: 19.62074s;
+            animation-delay: 19.62074s;
+    -webkit-animation-duration: 26.46452s;
+            animation-duration: 26.46452s;
+    width: 3.77864px;
+    height: 3.77864px;
+    background-color: #a0adc9;
+  }
+  .flake:nth-child(51) {
+    left: 45%;
+    -webkit-animation-delay: 9.33664s;
+            animation-delay: 9.33664s;
+    -webkit-animation-duration: 19.74869s;
+            animation-duration: 19.74869s;
+    width: 5.06363px;
+    height: 5.06363px;
+    background-color: #c5cede;
+  }
+  .flake:nth-child(52) {
+    left: 56%;
+    -webkit-animation-delay: 6.18645s;
+            animation-delay: 6.18645s;
+    -webkit-animation-duration: 16.15941s;
+            animation-duration: 16.15941s;
+    width: 6.18835px;
+    height: 6.18835px;
+    background-color: #e6eaf1;
+  }
+  .flake:nth-child(53) {
+    left: 22%;
+    -webkit-animation-delay: 8.81091s;
+            animation-delay: 8.81091s;
+    -webkit-animation-duration: 35.18679s;
+            animation-duration: 35.18679s;
+    width: 2.84198px;
+    height: 2.84198px;
+    background-color: #8496b9;
+  }
+  .flake:nth-child(54) {
+    left: 15%;
+    -webkit-animation-delay: 16.79231s;
+            animation-delay: 16.79231s;
+    -webkit-animation-duration: 33.80404s;
+            animation-duration: 33.80404s;
+    width: 2.95823px;
+    height: 2.95823px;
+    background-color: #8899bb;
+  }
+  .flake:nth-child(55) {
+    left: 56%;
+    -webkit-animation-delay: 2.95678s;
+            animation-delay: 2.95678s;
+    -webkit-animation-duration: 19.91933s;
+            animation-duration: 19.91933s;
+    width: 5.02025px;
+    height: 5.02025px;
+    background-color: #c4cddd;
+  }
+  .flake:nth-child(56) {
+    left: 68%;
+    -webkit-animation-delay: 6.72979s;
+            animation-delay: 6.72979s;
+    -webkit-animation-duration: 15.45824s;
+            animation-duration: 15.45824s;
+    width: 6.46904px;
+    height: 6.46904px;
+    background-color: #eef1f6;
+  }
+  .flake:nth-child(57) {
+    left: 18%;
+    -webkit-animation-delay: 10.44726s;
+            animation-delay: 10.44726s;
+    -webkit-animation-duration: 32.2321s;
+            animation-duration: 32.2321s;
+    width: 3.1025px;
+    height: 3.1025px;
+    background-color: #8c9cbd;
+  }
+  .flake:nth-child(58) {
+    left: 17%;
+    -webkit-animation-delay: 7.77051s;
+            animation-delay: 7.77051s;
+    -webkit-animation-duration: 18.45733s;
+            animation-duration: 18.45733s;
+    width: 5.4179px;
+    height: 5.4179px;
+    background-color: #d0d6e4;
+  }
+  .flake:nth-child(59) {
+    left: 61%;
+    -webkit-animation-delay: 14.92355s;
+            animation-delay: 14.92355s;
+    -webkit-animation-duration: 31.68672s;
+            animation-duration: 31.68672s;
+    width: 3.1559px;
+    height: 3.1559px;
+    background-color: #8e9ebe;
+  }
+  .flake:nth-child(60) {
+    left: 73%;
+    -webkit-animation-delay: 11.04578s;
+            animation-delay: 11.04578s;
+    -webkit-animation-duration: 37.49426s;
+            animation-duration: 37.49426s;
+    width: 2.66708px;
+    height: 2.66708px;
+    background-color: #7f92b6;
+  }
+  .flake:nth-child(61) {
+    left: 68%;
+    -webkit-animation-delay: 0.70606s;
+            animation-delay: 0.70606s;
+    -webkit-animation-duration: 24.88237s;
+            animation-duration: 24.88237s;
+    width: 4.01891px;
+    height: 4.01891px;
+    background-color: #a7b3cd;
+  }
+  .flake:nth-child(62) {
+    left: 16%;
+    -webkit-animation-delay: 11.13964s;
+            animation-delay: 11.13964s;
+    -webkit-animation-duration: 27.98749s;
+            animation-duration: 27.98749s;
+    width: 3.57303px;
+    height: 3.57303px;
+    background-color: #9aa8c5;
+  }
+  .flake:nth-child(63) {
+    left: 75%;
+    -webkit-animation-delay: 9.39781s;
+            animation-delay: 9.39781s;
+    -webkit-animation-duration: 27.41952s;
+            animation-duration: 27.41952s;
+    width: 3.64704px;
+    height: 3.64704px;
+    background-color: #9caac6;
+  }
+  .flake:nth-child(64) {
+    left: 31%;
+    -webkit-animation-delay: 7.64268s;
+            animation-delay: 7.64268s;
+    -webkit-animation-duration: 35.57003s;
+            animation-duration: 35.57003s;
+    width: 2.81136px;
+    height: 2.81136px;
+    background-color: #8495b8;
+  }
+  .flake:nth-child(65) {
+    left: 50%;
+    -webkit-animation-delay: 7.45773s;
+            animation-delay: 7.45773s;
+    -webkit-animation-duration: 37.99234s;
+            animation-duration: 37.99234s;
+    width: 2.63211px;
+    height: 2.63211px;
+    background-color: #7e91b5;
+  }
+  .flake:nth-child(66) {
+    left: 46%;
+    -webkit-animation-delay: 14.7261s;
+            animation-delay: 14.7261s;
+    -webkit-animation-duration: 20.93746s;
+            animation-duration: 20.93746s;
+    width: 4.77613px;
+    height: 4.77613px;
+    background-color: #bdc6d9;
+  }
+  .flake:nth-child(67) {
+    left: 29%;
+    -webkit-animation-delay: 14.85899s;
+            animation-delay: 14.85899s;
+    -webkit-animation-duration: 25.15572s;
+            animation-duration: 25.15572s;
+    width: 3.97524px;
+    height: 3.97524px;
+    background-color: #a6b2cc;
+  }
+  .flake:nth-child(68) {
+    left: 37%;
+    -webkit-animation-delay: 10.40308s;
+            animation-delay: 10.40308s;
+    -webkit-animation-duration: 17.32063s;
+            animation-duration: 17.32063s;
+    width: 5.77346px;
+    height: 5.77346px;
+    background-color: #dadfea;
+  }
+  .flake:nth-child(69) {
+    left: 39%;
+    -webkit-animation-delay: 2.08102s;
+            animation-delay: 2.08102s;
+    -webkit-animation-duration: 38.93787s;
+            animation-duration: 38.93787s;
+    width: 2.56819px;
+    height: 2.56819px;
+    background-color: #7c8fb4;
+  }
+  .flake:nth-child(70) {
+    left: 40%;
+    -webkit-animation-delay: 11.9759s;
+            animation-delay: 11.9759s;
+    -webkit-animation-duration: 28.86884s;
+            animation-duration: 28.86884s;
+    width: 3.46394px;
+    height: 3.46394px;
+    background-color: #97a6c3;
+  }
+  .flake:nth-child(71) {
+    left: 93%;
+    -webkit-animation-delay: 0.28564s;
+            animation-delay: 0.28564s;
+    -webkit-animation-duration: 13.47869s;
+            animation-duration: 13.47869s;
+    width: 7.41912px;
+    height: 7.41912px;
+    background-color: white;
+  }
+  .flake:nth-child(72) {
+    left: 28%;
+    -webkit-animation-delay: 12.85689s;
+            animation-delay: 12.85689s;
+    -webkit-animation-duration: 18.29631s;
+            animation-duration: 18.29631s;
+    width: 5.46558px;
+    height: 5.46558px;
+    background-color: #d1d8e5;
+  }
+  .flake:nth-child(73) {
+    left: 19%;
+    -webkit-animation-delay: 9.10412s;
+            animation-delay: 9.10412s;
+    -webkit-animation-duration: 35.56831s;
+            animation-duration: 35.56831s;
+    width: 2.81149px;
+    height: 2.81149px;
+    background-color: #8495b8;
+  }
+  .flake:nth-child(74) {
+    left: 44%;
+    -webkit-animation-delay: 9.77322s;
+            animation-delay: 9.77322s;
+    -webkit-animation-duration: 21.35376s;
+            animation-duration: 21.35376s;
+    width: 4.68302px;
+    height: 4.68302px;
+    background-color: #bac4d8;
+  }
+  .flake:nth-child(75) {
+    left: 33%;
+    -webkit-animation-delay: 16.29571s;
+            animation-delay: 16.29571s;
+    -webkit-animation-duration: 17.57488s;
+            animation-duration: 17.57488s;
+    width: 5.68994px;
+    height: 5.68994px;
+    background-color: #d8dde9;
+  }
+  .flake:nth-child(76) {
+    left: 6%;
+    -webkit-animation-delay: 17.64912s;
+            animation-delay: 17.64912s;
+    -webkit-animation-duration: 34.39717s;
+            animation-duration: 34.39717s;
+    width: 2.90722px;
+    height: 2.90722px;
+    background-color: #8698ba;
+  }
+  .flake:nth-child(77) {
+    left: 84%;
+    -webkit-animation-delay: 3.66111s;
+            animation-delay: 3.66111s;
+    -webkit-animation-duration: 16.32243s;
+            animation-duration: 16.32243s;
+    width: 6.12654px;
+    height: 6.12654px;
+    background-color: #e4e8f0;
+  }
+  .flake:nth-child(78) {
+    left: 12%;
+    -webkit-animation-delay: 9.53482s;
+            animation-delay: 9.53482s;
+    -webkit-animation-duration: 22.24544s;
+            animation-duration: 22.24544s;
+    width: 4.4953px;
+    height: 4.4953px;
+    background-color: #b5bfd5;
+  }
+  .flake:nth-child(79) {
+    left: 61%;
+    -webkit-animation-delay: 19.41855s;
+            animation-delay: 19.41855s;
+    -webkit-animation-duration: 19.6674s;
+            animation-duration: 19.6674s;
+    width: 5.08456px;
+    height: 5.08456px;
+    background-color: #c6cede;
+  }
+  .flake:nth-child(80) {
+    left: 47%;
+    -webkit-animation-delay: 2.56097s;
+            animation-delay: 2.56097s;
+    -webkit-animation-duration: 13.39327s;
+            animation-duration: 13.39327s;
+    width: 7.46644px;
+    height: 7.46644px;
+    background-color: white;
+  }
+  .flake:nth-child(81) {
+    left: 24%;
+    -webkit-animation-delay: 16.99672s;
+            animation-delay: 16.99672s;
+    -webkit-animation-duration: 14.4723s;
+            animation-duration: 14.4723s;
+    width: 6.90975px;
+    height: 6.90975px;
+    background-color: #fbfcfd;
+  }
+  .flake:nth-child(82) {
+    left: 61%;
+    -webkit-animation-delay: 10.83477s;
+            animation-delay: 10.83477s;
+    -webkit-animation-duration: 14.87028s;
+            animation-duration: 14.87028s;
+    width: 6.72482px;
+    height: 6.72482px;
+    background-color: #f6f7fa;
+  }
+  .flake:nth-child(83) {
+    left: 91%;
+    -webkit-animation-delay: 6.35051s;
+            animation-delay: 6.35051s;
+    -webkit-animation-duration: 15.06571s;
+            animation-duration: 15.06571s;
+    width: 6.63759px;
+    height: 6.63759px;
+    background-color: #f3f5f8;
+  }
+  .flake:nth-child(84) {
+    left: 63%;
+    -webkit-animation-delay: 14.82096s;
+            animation-delay: 14.82096s;
+    -webkit-animation-duration: 16.13329s;
+            animation-duration: 16.13329s;
+    width: 6.19837px;
+    height: 6.19837px;
+    background-color: #e7eaf1;
+  }
+  .flake:nth-child(85) {
+    left: 99%;
+    -webkit-animation-delay: 9.12445s;
+            animation-delay: 9.12445s;
+    -webkit-animation-duration: 13.61306s;
+            animation-duration: 13.61306s;
+    width: 7.34589px;
+    height: 7.34589px;
+    background-color: white;
+  }
+  .flake:nth-child(86) {
+    left: 1%;
+    -webkit-animation-delay: 11.70622s;
+            animation-delay: 11.70622s;
+    -webkit-animation-duration: 15.18475s;
+            animation-duration: 15.18475s;
+    width: 6.58555px;
+    height: 6.58555px;
+    background-color: #f2f4f7;
+  }
+  .flake:nth-child(87) {
+    left: 94%;
+    -webkit-animation-delay: 4.89274s;
+            animation-delay: 4.89274s;
+    -webkit-animation-duration: 20.60816s;
+            animation-duration: 20.60816s;
+    width: 4.85245px;
+    height: 4.85245px;
+    background-color: #bfc8db;
+  }
+  .flake:nth-child(88) {
+    left: 38%;
+    -webkit-animation-delay: 9.53548s;
+            animation-delay: 9.53548s;
+    -webkit-animation-duration: 16.87419s;
+            animation-duration: 16.87419s;
+    width: 5.92621px;
+    height: 5.92621px;
+    background-color: #dfe3ec;
+  }
+  .flake:nth-child(89) {
+    left: 46%;
+    -webkit-animation-delay: 9.75018s;
+            animation-delay: 9.75018s;
+    -webkit-animation-duration: 34.71993s;
+            animation-duration: 34.71993s;
+    width: 2.88019px;
+    height: 2.88019px;
+    background-color: #8697ba;
+  }
+  .flake:nth-child(90) {
+    left: 54%;
+    -webkit-animation-delay: 0.83769s;
+            animation-delay: 0.83769s;
+    -webkit-animation-duration: 20.4187s;
+            animation-duration: 20.4187s;
+    width: 4.89747px;
+    height: 4.89747px;
+    background-color: #c1c9db;
+  }
+  .flake:nth-child(91) {
+    left: 70%;
+    -webkit-animation-delay: 6.14079s;
+            animation-delay: 6.14079s;
+    -webkit-animation-duration: 21.09399s;
+            animation-duration: 21.09399s;
+    width: 4.74069px;
+    height: 4.74069px;
+    background-color: #bcc6d9;
+  }
+  .flake:nth-child(92) {
+    left: 3%;
+    -webkit-animation-delay: 19.03921s;
+            animation-delay: 19.03921s;
+    -webkit-animation-duration: 34.25836s;
+            animation-duration: 34.25836s;
+    width: 2.919px;
+    height: 2.919px;
+    background-color: #8798ba;
+  }
+  .flake:nth-child(93) {
+    left: 22%;
+    -webkit-animation-delay: 4.36123s;
+            animation-delay: 4.36123s;
+    -webkit-animation-duration: 25.79186s;
+            animation-duration: 25.79186s;
+    width: 3.87719px;
+    height: 3.87719px;
+    background-color: #a3b0ca;
+  }
+  .flake:nth-child(94) {
+    left: 88%;
+    -webkit-animation-delay: 15.3327s;
+            animation-delay: 15.3327s;
+    -webkit-animation-duration: 34.38867s;
+            animation-duration: 34.38867s;
+    width: 2.90793px;
+    height: 2.90793px;
+    background-color: #8698ba;
+  }
+  .flake:nth-child(95) {
+    left: 50%;
+    -webkit-animation-delay: 15.4825s;
+            animation-delay: 15.4825s;
+    -webkit-animation-duration: 23.47631s;
+            animation-duration: 23.47631s;
+    width: 4.25961px;
+    height: 4.25961px;
+    background-color: #aeb9d1;
+  }
+  .flake:nth-child(96) {
+    left: 64%;
+    -webkit-animation-delay: 13.01351s;
+            animation-delay: 13.01351s;
+    -webkit-animation-duration: 14.01137s;
+            animation-duration: 14.01137s;
+    width: 7.13706px;
+    height: 7.13706px;
+    background-color: white;
+  }
+  .flake:nth-child(97) {
+    left: 45%;
+    -webkit-animation-delay: 16.63814s;
+            animation-delay: 16.63814s;
+    -webkit-animation-duration: 16.26303s;
+            animation-duration: 16.26303s;
+    width: 6.14891px;
+    height: 6.14891px;
+    background-color: #e5e9f0;
+  }
+  .flake:nth-child(98) {
+    left: 23%;
+    -webkit-animation-delay: 16.35222s;
+            animation-delay: 16.35222s;
+    -webkit-animation-duration: 17.12121s;
+            animation-duration: 17.12121s;
+    width: 5.84071px;
+    height: 5.84071px;
+    background-color: #dce1eb;
+  }
+  .flake:nth-child(99) {
+    left: 52%;
+    -webkit-animation-delay: 16.73045s;
+            animation-delay: 16.73045s;
+    -webkit-animation-duration: 14.79988s;
+            animation-duration: 14.79988s;
+    width: 6.75681px;
+    height: 6.75681px;
+    background-color: #f7f8fa;
+  }
+  .flake:nth-child(100) {
+    left: 35%;
+    -webkit-animation-delay: 11.38364s;
+            animation-delay: 11.38364s;
+    -webkit-animation-duration: 16.58265s;
+            animation-duration: 16.58265s;
+    width: 6.0304px;
+    height: 6.0304px;
+    background-color: #e2e6ee;
+  }
+}
+
+@media (max-width: 1000px) {
+  .flake:nth-child(1) {
+    left: 47%;
+    -webkit-animation-delay: 13.36049s;
+            animation-delay: 13.36049s;
+    -webkit-animation-duration: 32.44672s;
+            animation-duration: 32.44672s;
+    width: 3.08198px;
+    height: 3.08198px;
+    background-color: #8b9cbd;
+  }
+  .flake:nth-child(2) {
+    left: 74%;
+    -webkit-animation-delay: 6.02861s;
+            animation-delay: 6.02861s;
+    -webkit-animation-duration: 31.68671s;
+            animation-duration: 31.68671s;
+    width: 3.1559px;
+    height: 3.1559px;
+    background-color: #8e9ebe;
+  }
+  .flake:nth-child(3) {
+    left: 53%;
+    -webkit-animation-delay: 0.32684s;
+            animation-delay: 0.32684s;
+    -webkit-animation-duration: 17.81735s;
+            animation-duration: 17.81735s;
+    width: 5.61251px;
+    height: 5.61251px;
+    background-color: #d5dbe7;
+  }
+  .flake:nth-child(4) {
+    left: 64%;
+    -webkit-animation-delay: 19.58185s;
+            animation-delay: 19.58185s;
+    -webkit-animation-duration: 30.14513s;
+            animation-duration: 30.14513s;
+    width: 3.31729px;
+    height: 3.31729px;
+    background-color: #92a2c1;
+  }
+  .flake:nth-child(5) {
+    left: 53%;
+    -webkit-animation-delay: 6.2044s;
+            animation-delay: 6.2044s;
+    -webkit-animation-duration: 30.53105s;
+            animation-duration: 30.53105s;
+    width: 3.27535px;
+    height: 3.27535px;
+    background-color: #91a1c0;
+  }
+  .flake:nth-child(6) {
+    left: 77%;
+    -webkit-animation-delay: 7.40406s;
+            animation-delay: 7.40406s;
+    -webkit-animation-duration: 22.30006s;
+            animation-duration: 22.30006s;
+    width: 4.48429px;
+    height: 4.48429px;
+    background-color: #b4bfd4;
+  }
+  .flake:nth-child(7) {
+    left: 29%;
+    -webkit-animation-delay: 8.27235s;
+            animation-delay: 8.27235s;
+    -webkit-animation-duration: 28.41233s;
+            animation-duration: 28.41233s;
+    width: 3.5196px;
+    height: 3.5196px;
+    background-color: #98a7c4;
+  }
+  .flake:nth-child(8) {
+    left: 28%;
+    -webkit-animation-delay: 13.3923s;
+            animation-delay: 13.3923s;
+    -webkit-animation-duration: 37.73781s;
+            animation-duration: 37.73781s;
+    width: 2.64986px;
+    height: 2.64986px;
+    background-color: #7f91b6;
+  }
+  .flake:nth-child(9) {
+    left: 75%;
+    -webkit-animation-delay: 14.71063s;
+            animation-delay: 14.71063s;
+    -webkit-animation-duration: 15.27061s;
+            animation-duration: 15.27061s;
+    width: 6.54853px;
+    height: 6.54853px;
+    background-color: #f1f3f7;
+  }
+  .flake:nth-child(10) {
+    left: 96%;
+    -webkit-animation-delay: 18.60023s;
+            animation-delay: 18.60023s;
+    -webkit-animation-duration: 16.0812s;
+            animation-duration: 16.0812s;
+    width: 6.21844px;
+    height: 6.21844px;
+    background-color: #e7ebf1;
+  }
+  .flake:nth-child(11) {
+    left: 46%;
+    -webkit-animation-delay: 3.84144s;
+            animation-delay: 3.84144s;
+    -webkit-animation-duration: 14.53072s;
+            animation-duration: 14.53072s;
+    width: 6.88197px;
+    height: 6.88197px;
+    background-color: #fafbfc;
+  }
+  .flake:nth-child(12) {
+    left: 26%;
+    -webkit-animation-delay: 4.99816s;
+            animation-delay: 4.99816s;
+    -webkit-animation-duration: 26.23693s;
+            animation-duration: 26.23693s;
+    width: 3.81142px;
+    height: 3.81142px;
+    background-color: #a1aec9;
+  }
+  .flake:nth-child(13) {
+    left: 66%;
+    -webkit-animation-delay: 9.58449s;
+            animation-delay: 9.58449s;
+    -webkit-animation-duration: 28.82513s;
+            animation-duration: 28.82513s;
+    width: 3.46919px;
+    height: 3.46919px;
+    background-color: #97a6c3;
+  }
+  .flake:nth-child(14) {
+    left: 7%;
+    -webkit-animation-delay: 18.84508s;
+            animation-delay: 18.84508s;
+    -webkit-animation-duration: 37.77816s;
+            animation-duration: 37.77816s;
+    width: 2.64703px;
+    height: 2.64703px;
+    background-color: #7f91b6;
+  }
+  .flake:nth-child(15) {
+    left: 100%;
+    -webkit-animation-delay: 17.93998s;
+            animation-delay: 17.93998s;
+    -webkit-animation-duration: 15.16219s;
+            animation-duration: 15.16219s;
+    width: 6.59536px;
+    height: 6.59536px;
+    background-color: #f2f4f8;
+  }
+  .flake:nth-child(16) {
+    left: 45%;
+    -webkit-animation-delay: 13.39387s;
+            animation-delay: 13.39387s;
+    -webkit-animation-duration: 15.12179s;
+            animation-duration: 15.12179s;
+    width: 6.61297px;
+    height: 6.61297px;
+    background-color: #f3f4f8;
+  }
+  .flake:nth-child(17) {
+    left: 91%;
+    -webkit-animation-delay: 17.96182s;
+            animation-delay: 17.96182s;
+    -webkit-animation-duration: 22.3401s;
+            animation-duration: 22.3401s;
+    width: 4.47626px;
+    height: 4.47626px;
+    background-color: #b4bfd4;
+  }
+  .flake:nth-child(18) {
+    left: 36%;
+    -webkit-animation-delay: 7.62937s;
+            animation-delay: 7.62937s;
+    -webkit-animation-duration: 21.95661s;
+            animation-duration: 21.95661s;
+    width: 4.55444px;
+    height: 4.55444px;
+    background-color: #b6c1d6;
+  }
+  .flake:nth-child(19) {
+    left: 58%;
+    -webkit-animation-delay: 1.77567s;
+            animation-delay: 1.77567s;
+    -webkit-animation-duration: 20.98413s;
+            animation-duration: 20.98413s;
+    width: 4.76551px;
+    height: 4.76551px;
+    background-color: #bdc6d9;
+  }
+  .flake:nth-child(20) {
+    left: 34%;
+    -webkit-animation-delay: 14.33571s;
+            animation-delay: 14.33571s;
+    -webkit-animation-duration: 33.87874s;
+            animation-duration: 33.87874s;
+    width: 2.9517px;
+    height: 2.9517px;
+    background-color: #8899bb;
+  }
+}
+/*# sourceMappingURL=style.css.map */
